@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+.gray-background {
+  background-color: rgb(22, 22, 22);
+  padding: 30px 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h3 {
+  margin-top: 30px;
+}
+button {
+  padding: 10px 45% !important;
+  background-color: rgb(156, 43, 96);
+  border: none;
+  color: white;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+p {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+.user-row {
+  margin-top: 100px;
+}
+.userImg {
+  border-radius: 50%;
+}
+.right-img {
+  border-radius: 20px;
+}
+.user-info {
+  margin-top: 20px;
+}
+.subtitle {
+  color: rgba(167, 167, 167, 0.466);
+}
+.title {
+  background-color: green;
+  padding: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  button {
+    padding: 10px 42% !important;
+  }
+  .user-info {
+    margin-top: 0px;
+  }
+  .user-row {
+    margin-top: 20px;
+  }
+}
