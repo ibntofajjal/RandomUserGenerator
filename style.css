@@ -44,6 +44,12 @@ p {
   background-color: green;
   padding: 20px;
 }
+.spinner-grow {
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
 
 @media screen and (max-width: 576px) {
   button {

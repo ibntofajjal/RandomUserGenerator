@@ -7,7 +7,8 @@ const loadRandomUser = () => {
 loadRandomUser();
 
 const displayResult = (user) => {
-  console.log(user);
+  const spinner = document.getElementById("spinner");
+  spinner.style.display = "none";
   const displayResultDiv = document.getElementById("displayResult");
   const personBob = document.createElement("div");
   const personName = document.createElement("h3");
